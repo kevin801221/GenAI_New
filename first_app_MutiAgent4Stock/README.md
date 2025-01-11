@@ -1,6 +1,15 @@
 ```markdown
 # 多代理人財務分析系統 (Multi-Agent Financial Analysis System)
 
+graph TD
+    A[Agent: 市場研究分析師] --> T1[Task 1: 搜索公司新聞]
+    A --> T2[Task 2: 分析市場趨勢]
+    A --> T3[Task 3: 競爭對手分析]
+    
+    B[Agent: 財務分析師] --> T4[Task 4: 財報分析]
+    B --> T5[Task 5: 風險評估]
+    B --> T6[Task 6: 投資建議]
+    
 ## 🌟 項目簡介
 
 這是一個基於 CrewAI 框架開發的多代理人財務分析系統，利用 AI 代理協同工作，為用戶提供專業的股票投資分析服務。系統整合了市場研究和財務分析功能，通過多個 AI 代理的協作，提供全面的投資建議。
